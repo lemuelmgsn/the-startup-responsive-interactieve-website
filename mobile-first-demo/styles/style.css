@@ -20,9 +20,31 @@ nav > h1{
    
 }
 nav > ul{
-   padding: 1em;
+   padding: .5em;
+   padding-top: 1em;
 }
 nav > ul > li{
    display: inline;
    padding-left: 10px;
+   display: flexbox;
+}
+section:nth-of-type(1){
+   background-color: var(--primary-bg-color);
+   padding: 1em 1em;
+}
+p{
+   color: var(--font-color);
+}
+section:nth-of-type(2){
+   background-color: var(--primary-bg-color);
+   height: 100vh;
+}
+.blog{
+   height: 40vh;
+   background-color: var(--primary-blog-color);
+   border-radius: 1em;
+   color: var(--font-color);
+   padding: 2em;
+   margin: 0 2em;
+   translate: 0em 8em;
 }
