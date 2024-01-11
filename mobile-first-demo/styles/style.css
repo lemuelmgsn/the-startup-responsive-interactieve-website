@@ -13,15 +13,18 @@
 nav{
    background-color: var(--yellow);
    display: flexbox;
+   height: 7em;
 }
 nav > h1{
    font-weight: bold;
    translate: .5em .5em;
+   font-size: 2em;
    
 }
 nav > ul{
    padding: .5em;
    padding-top: 1em;
+   translate: 0 1em;
 }
 nav > ul > li{
    display: inline;
@@ -37,7 +40,7 @@ p{
 }
 section:nth-of-type(2){
    background-color: var(--primary-bg-color);
-   height: 100vh;
+   height: 65vh;
 }
 .blog{
    height: 40vh;
@@ -46,5 +49,12 @@ section:nth-of-type(2){
    color: var(--font-color);
    padding: 2em;
    margin: 0 2em;
-   translate: 0em 8em;
+   translate: 0em 5em;
+}
+footer{
+   background-color: var(--primary-blog-color)
+}
+footer > p{
+   padding: 1em;
+   font-size: 14px;
 }
