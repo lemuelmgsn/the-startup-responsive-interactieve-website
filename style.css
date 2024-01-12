@@ -41,7 +41,7 @@
     background-color: var(--primary-bg-color);
     height: 65vh;
  }
- .blog{
+ section > ul > li{
     height: 40vh;
     background-color: var(--primary-blog-color);
     border-radius: 1em;
