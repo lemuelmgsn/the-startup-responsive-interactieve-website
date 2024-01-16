@@ -8,7 +8,7 @@
  *{
     margin: 0;
     padding: 0;
-    /* font-family: sans-serif; */
+    font-family: sans-serif;
  }
  nav{
     background-color: var(--yellow);
@@ -40,6 +40,9 @@
      var(--primary-blog-color) 2%);
     padding: 1em 1em;
  }
+ section:nth-of-type(1) > p{
+   padding: 2em 0;
+ }
  p{
     color: var(--font-color);
  }
@@ -47,22 +50,46 @@
     background-color: var(--primary-bg-color);
     height: auto;
  }
- section > ul{
+ .carousel{
    display: flex;
    overflow: auto;
+   width: auto;
+   height: 72vh;
  }
- section > ul > li{
-    /* height: 40vh; */
+ .blog{
+    height: 30vh;
     width: auto;
     background-color: var(--primary-blog-color);
     border-radius: 1em;
     color: var(--font-color);
     padding: 2em;
-    margin: 0 1em;
-    translate: 0em 3em;
+    margin: 1em;
+    translate: 0em em;
    list-style: none;
    scroll-snap-align: center;
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 76%;
  }
+ /* positie van items in de blog */
+ .blog > h2{
+   padding-top: 1em;
+ }
+ .blog > p{
+   padding-top: 1em;
+   padding-bottom: 2em;
+ }
+ small{
+   opacity: .5;
+}
+/* ---------------------- */
+ .carousel-a{
+   display: flex;
+   scroll-snap-type: x mandatory;
+   overflow: auto;
+   align-items: center;
+ }
+ /* footer styling */
  footer{
     background-color: var(--primary-blog-color)
  }
@@ -70,11 +97,10 @@
     padding: 1em;
     font-size: 14px;
  }
- small{
-   opacity: .5;
- }
- details{
+
+ /* filter-test dinges */
+ /* details{
    padding-top: 1em;
    background-color: var(--primary-bg-color);
    color: var(--font-color);
- }
+ } */
