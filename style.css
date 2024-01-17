@@ -18,16 +18,16 @@
     font-weight: bold;
     translate: .5em .5em;
     font-size: 2em;
-    
  }
  nav > ul{
     padding: .5em;
     padding-top: 1em;
     translate: 0 1em;
+    display: flex;
+    justify-content: space-evenly;
  }
  nav > ul > li{
     display: inline;
-    padding-left: 10px;
     display: flexbox;
  }
  nav > ul > li:hover{
@@ -88,7 +88,10 @@
    scroll-snap-type: x mandatory;
    overflow: auto;
    align-items: center;
+   scrollbar-width: none;
  }
+ .carousel-a::-webkit-scrollbar { 
+   display: none; }
  /* footer styling */
  footer{
     background-color: var(--primary-blog-color)
@@ -104,3 +107,51 @@
    background-color: var(--primary-bg-color);
    color: var(--font-color);
  } */
+
+ /* breakpoint voor tablet */
+ @media (min-width: 670px) {
+
+   nav > ul > li{
+      padding-left: 40px;
+      padding-top: 5px;
+      font-size: 1.2em;
+   }
+   nav{
+      display: flex;
+      height: 6em;
+   }
+   nav > h1{
+      padding-top: 10px;
+   }
+   section:nth-of-type(1) > p{
+      font-size: 1.2em;
+ }
+}
+/* media query voor wat groter scherm */
+ @media (min-width: 911px) {
+
+   nav > ul > li{
+      padding-left: 60px;
+   }
+ }
+ /* nog groter scherm */
+ @media (min-width: 1000px){
+   nav > h1{
+      color: black;
+      background-color: var(--yellow);
+      transform: rotate(-90deg);
+      width: 100px;
+      /* height: 2em; */
+   }
+   nav{
+      /* background-color: var(--primary-bg-color); */
+      background-image: linear-gradient(
+         var(--primary-bg-color) 98%,
+         var(--primary-blog-color) 2%);
+      height: 8em;
+   }
+   nav > ul{
+      color: var(--font-color);
+      font-size: 1.5em;
+   }
+ }
