@@ -36,8 +36,8 @@
  section:nth-of-type(1){
     /* background-color: var(--primary-bg-color); */
     background-image: linear-gradient(
-     var(--primary-bg-color) 98%,
-     var(--primary-blog-color) 2%);
+     var(--primary-bg-color) 99%,
+     var(--primary-blog-color) 1%);
     padding: 1em 1em;
  }
  section:nth-of-type(1) > p{
@@ -146,8 +146,8 @@
    nav{
       /* background-color: var(--primary-bg-color); */
       background-image: linear-gradient(
-         var(--primary-bg-color) 98%,
-         var(--primary-blog-color) 2%);
+         var(--primary-bg-color) 99%,
+         var(--primary-blog-color) 1%);
       height: 8em;
    }
    nav > ul{
