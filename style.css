@@ -71,13 +71,14 @@
    flex-shrink: 0;
    flex-basis: 76%;
  }
+
  /* positie van items in de blog */
  .blog > h2{
    padding-top: 1em;
  }
  .blog > p{
    padding-top: 1em;
-   padding-bottom: 2em;
+   padding-bottom: 1em;
  }
  small{
    opacity: .5;
@@ -91,14 +92,24 @@
    scrollbar-width: none;
  }
  .carousel-a::-webkit-scrollbar { 
-   display: none; }
+   display: none; 
+}
+
+
  /* footer styling */
  footer{
-    background-color: var(--primary-blog-color)
+    background-color: var(--primary-blog-color);
  }
  footer > p{
     padding: 1em;
     font-size: 14px;
+    text-align: center;
+ }
+ footer > p > a{
+   color: var(--font-color);
+ }
+ footer > p > a:hover{
+   text-decoration: none;
  }
 
  /* filter-test dinges */
