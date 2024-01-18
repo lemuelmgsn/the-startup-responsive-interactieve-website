@@ -56,6 +56,26 @@
    width: auto;
    height: 72vh;
  }
+ .klik{
+      height: 30vh;
+      width: auto;
+      background-color: var(--primary-blog-color);
+      border-radius: 1em;
+      color: var(--font-color);
+      padding: 2em;
+      margin: 1em;
+      translate: 0em em;
+     list-style: none;
+     scroll-snap-align: center;
+     flex-grow: 0;
+     flex-shrink: 0;
+     flex-basis: 76%;
+     text-decoration: none;
+   }
+   .klik:hover{
+      translate: 0 -.5em;
+   }
+   /* div misschien weghalen? */
  .blog{
     height: 30vh;
     width: auto;
