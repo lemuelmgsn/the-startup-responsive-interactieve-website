@@ -75,6 +75,9 @@
    .klik:hover{
       translate: 0 -.5em;
    }
+   .klik:active{
+      translate: 0 .5em;
+   }
    /* div misschien weghalen? */
  .blog{
     height: 30vh;
@@ -93,10 +96,10 @@
  }
 
  /* positie van items in de blog */
- .blog > h2{
+ .klik > h2{
    padding-top: 1em;
  }
- .blog > p{
+ .klik > p{
    padding-top: 1em;
    padding-bottom: 1em;
  }
