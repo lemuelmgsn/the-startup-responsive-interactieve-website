@@ -29,27 +29,34 @@
  nav > ul > li{
     display: inline;
     display: flexbox;
+    color: black;
  }
  nav > ul > li:hover{
    text-decoration: underline;
  }
- section:nth-of-type(1){
+ header{
     /* background-color: var(--primary-bg-color); */
     background-image: linear-gradient(
      var(--primary-bg-color) 99%,
      var(--primary-blog-color) 1%);
     padding: 1em 1em;
  }
- section:nth-of-type(1) > p{
-   padding: 2em 0;
+header > h1{
+   padding: 1em 0;
  }
- p{
+ .GRRR-logo{
+   color: black;
+ }
+ h1, h2{
     color: var(--font-color);
  }
- section:nth-of-type(2){
+ section:nth-of-type(1){
     background-color: var(--primary-bg-color);
     height: auto;
  }
+ section:nth-of-type(1) > h1{
+   padding: 1em 1em;
+}
  .carousel{
    display: flex;
    overflow: auto;
@@ -107,14 +114,14 @@
    opacity: .5;
 }
 /* ---------------------- */
- .carousel-a{
+ .carousel-scroll{
    display: flex;
    scroll-snap-type: x mandatory;
    overflow: auto;
    align-items: center;
    scrollbar-width: none;
  }
- .carousel-a::-webkit-scrollbar { 
+ .carousel-scroll::-webkit-scrollbar { 
    display: none; 
 }
 
@@ -127,6 +134,7 @@
     padding: 1em;
     font-size: 14px;
     text-align: center;
+    color: var(--font-color);
  }
  footer > p > a{
    color: var(--font-color);
@@ -188,4 +196,7 @@
       color: var(--font-color);
       font-size: 1.5em;
    }
+   nav > ul > li{
+      color: white;
  }
+}
