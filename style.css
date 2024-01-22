@@ -14,11 +14,12 @@
     background-color: var(--yellow);
     height: 7em;
  }
- nav > h1{
+ nav > .GRRR-logo{
     font-weight: bold;
     translate: .5em .5em;
     font-size: 2em;
- }
+    color: black;
+}
  nav > ul{
     padding: .5em;
     padding-top: 1em;
@@ -44,9 +45,6 @@
 header > h1{
    padding: 1em 0;
  }
- .GRRR-logo{
-   color: black;
- }
  h1, h2{
     color: var(--font-color);
  }
@@ -54,7 +52,7 @@ header > h1{
     background-color: var(--primary-bg-color);
     height: auto;
  }
- section:nth-of-type(1) > h1{
+ section:nth-of-type(1) > h2{
    padding: 1em 1em;
 }
  .carousel{
@@ -178,12 +176,14 @@ header > h1{
  }
  /* nog groter scherm */
  @media (min-width: 1000px){
-   nav > h1{
-      color: black;
+   .GRRR-logo{
       background-color: var(--yellow);
       transform: rotate(-90deg);
-      width: 100px;
-      /* height: 2em; */
+      width: 4em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      height: 1em;
+      text-align: center;
    }
    nav{
       /* background-color: var(--primary-bg-color); */
