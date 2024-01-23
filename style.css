@@ -76,9 +76,11 @@ header > h1{
      flex-shrink: 0;
      flex-basis: 76%;
      text-decoration: none;
+     transition: 0.4s ease-out;
    }
    .klik:hover{
-      translate: 0 -.5em;
+      translate: 0 -1em;
+      transition: 0.4s ease-out;
    }
    .klik:active{
       translate: 0 .5em;
