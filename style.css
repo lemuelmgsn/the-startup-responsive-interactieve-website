@@ -168,6 +168,46 @@ header > h1{
    section:nth-of-type(1) > p{
       font-size: 1.2em;
  }
+ /*  */
+ .carousel-scroll {
+   align-items: center;
+   --arrow-size: 40px;
+   scroll-behavior: smooth;
+  }
+  
+  .carousel-scroll::before, .carousel-scroll::after {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   background: transparent;
+   border-radius: 5px;
+   box-shadow: 0 0 0 5px rgb(255, 255, 255);
+   height: var(--arrow-size);
+   flex: 0 0 var(--arrow-size);
+   opacity: .4;
+   transition: opacity .2s ease-out;
+   z-index: 1;
+  }
+  .carousel-scroll::before {
+   content: '<';
+   left: 20px;
+   margin-right: calc(var(--arrow-size) * -1);
+   color: var(--font-color);
+  }
+  .carousel-scroll::after {
+   content: '>';
+   right: 20px;
+   margin-left: calc(var(--arrow-size) * -1);
+   color: var(--font-color)
+  }
+  .carousel-scroll:hover::before, .carousel-scroll:hover::after, .carousel-scroll:focus::before, .carousel-scroll:focus::after {
+   opacity: 1;
+  }
+  .carousel-scroll:hover::before, .carousel-scroll:hover::after{
+   cursor: pointer;
+  }
+ /*  */
 }
 /* media query voor wat groter scherm */
  @media (min-width: 911px) {
@@ -202,3 +242,51 @@ header > h1{
       color: white;
  }
 }
+
+
+/**/
+
+
+/* .carousel-scroll {
+   align-items: center;
+   --arrow-size: 40px;
+   scroll-behavior: smooth;
+  }
+  
+  .carousel-scroll::before, .carousel-scroll::after {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   background: transparent;
+   border-radius: 5px;
+   box-shadow: 0 0 0 5px rgb(255, 255, 255);
+   height: var(--arrow-size);
+   flex: 0 0 var(--arrow-size);
+   opacity: .4;
+   transition: opacity .2s ease-out;
+   z-index: 1;
+  }
+  .carousel-scroll::before {
+   content: '<';
+   left: 20px;
+   margin-right: calc(var(--arrow-size) * -1);
+   color: var(--font-color);
+  }
+  .carousel-scroll::after {
+   content: '>';
+   right: 20px;
+   margin-left: calc(var(--arrow-size) * -1);
+   color: var(--font-color)
+  }
+  .carousel-scroll:hover::before, .carousel-scroll:hover::after, .carousel-scroll:focus::before, .carousel-scroll:focus::after {
+   opacity: 1;
+  }
+  .carousel-scroll:hover::before, .carousel-scroll:hover::after{
+   cursor: pointer;
+  }
+
+
+  .klik::after{
+   content: 'Read more';
+  } */
