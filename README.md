@@ -25,6 +25,23 @@ Wees creatief!
 
 ![image](https://github.com/lemuelmgsn/the-startup-responsive-interactieve-website/assets/144004180/f3a28ba3-f7aa-41bb-9337-18427c01036b)
 
+## Oprdrachtgever:
+
+GRRR - Martijn Nieuwenhuizen
+
+## Ontwerpprobleem & oplossing
+
+### "De lay-out van de blogpagina ziet er "saai" uit".
+
+![image](https://github.com/lemuelmgsn/the-startup-responsive-interactieve-website/assets/144004180/94c613ac-10a1-4365-9c4d-b13daf72a557)
+
+### Oplossing
+
+![image](https://github.com/lemuelmgsn/the-startup-responsive-interactieve-website/assets/144004180/82a9770c-176b-4b2a-839e-e94753cfec5f)
+
+## Gebruik van de website
+
+De website is een blogpagina waar je blogs kan lezen die geschreven zijn door developers. 
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
