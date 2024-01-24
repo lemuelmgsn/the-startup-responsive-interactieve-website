@@ -9,10 +9,12 @@
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Maak een herontwerp van de grrr.tech blogpagina. 
-Gebruik hierbij geen vertical list of grid lay-out.
 
-Hanteer de huisstijl van grrr.tech of grrr.nl
+Gebruik hierbij geen vertical list of grid lay-out en hanteer de huisstijl van grrr.tech of grrr.nl.
 
+Wees creatief!
+
+![image](https://github.com/lemuelmgsn/the-startup-responsive-interactieve-website/assets/144004180/177bfd68-6500-4832-924d-75f36db42fa0)
 
 ### Mobile: 
 
@@ -38,7 +40,7 @@ Figma, Visual studio code
 
 ## Bronnen
 
-grrr.tech
+grrr.tech grrr.nl
 
 ## Licentie
 
